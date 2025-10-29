@@ -1,3 +1,5 @@
+version: '3.8'
+
 services:
   # Ollama - AI Model Server
   ollama:
@@ -25,11 +27,9 @@ services:
     #           count: all
     #           capabilities: [gpu]
 
-  # Backend - Python FastAPI
+  # Backend - Python FastAPI (Using pre-built image)
   backend:
-    build: 
-      context: ./k-sphere-backend
-      dockerfile: Dockerfile
+    image: rushirajbirajdar/k-sphere-backend:latest
     container_name: k-sphere-backend
     ports:
       - "8000:8000"
@@ -57,11 +57,9 @@ services:
       retries: 3
       start_period: 40s
 
-  # Frontend - Next.js
+  # Frontend - Next.js (Using pre-built image)
   frontend:
-    build:
-      context: ./k-sphere-frontend
-      dockerfile: Dockerfile
+    image: rushirajbirajdar/k-sphere-frontend:latest
     container_name: k-sphere-frontend
     ports:
       - "3000:3000"
@@ -91,4 +89,3 @@ volumes:
     driver: local
   backend_logs:
     driver: local
-
