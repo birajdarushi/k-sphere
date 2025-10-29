@@ -29,7 +29,7 @@ services:
 
   # Backend - Python FastAPI (Using pre-built image)
   backend:
-    image: rushirajbirajdar/k-sphere-backend:latest
+    image: birajdarushi/k-sphere-backend:latest
     container_name: k-sphere-backend
     ports:
       - "8000:8000"
@@ -38,7 +38,7 @@ services:
       - backend_logs:/app/logs
     environment:
       - OLLAMA_HOST=http://ollama:11434
-      - LLM_MODEL=phi3.5:latest
+      - LLM_MODEL=llama3.2:1b
       - EMBEDDING_MODEL=nomic-embed-text
       - VECTOR_DB_PATH=/app/data/vectordb
       - WATCH_DIRECTORY=/app/data/uploads
