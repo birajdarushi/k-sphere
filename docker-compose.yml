@@ -1,0 +1,94 @@
+services:
+  # Ollama - AI Model Server
+  ollama:
+    image: ollama/ollama:latest
+    container_name: k-sphere-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    networks:
+      - k-sphere-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "ollama list || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 120s
+    # Uncomment below for NVIDIA GPU support
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+  # Backend - Python FastAPI
+  backend:
+    build: 
+      context: ./k-sphere-backend
+      dockerfile: Dockerfile
+    container_name: k-sphere-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - backend_data:/app/data
+      - backend_logs:/app/logs
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+      - LLM_MODEL=llama3.2:3b
+      - EMBEDDING_MODEL=nomic-embed-text
+      - VECTOR_DB_PATH=/app/data/vectordb
+      - WATCH_DIRECTORY=/app/data/uploads
+      - SKIP_WATCH=1
+      - PYTHONUNBUFFERED=1
+    depends_on:
+      ollama:
+        condition: service_healthy
+    networks:
+      - k-sphere-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Frontend - Next.js
+  frontend:
+    build:
+      context: ./k-sphere-frontend
+      dockerfile: Dockerfile
+    container_name: k-sphere-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_BACKEND_URL=http://backend:8000
+      - NODE_ENV=production
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - k-sphere-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+networks:
+  k-sphere-network:
+    driver: bridge
+
+volumes:
+  ollama_data:
+    driver: local
+  backend_data:
+    driver: local
+  backend_logs:
+    driver: local
+
