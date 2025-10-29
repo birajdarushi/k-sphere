@@ -29,7 +29,7 @@ services:
 
   # Backend - Python FastAPI (Using pre-built image)
   backend:
-    image: YOUR_DOCKERHUB_USERNAME/k-sphere-backend:latest
+    image: rushirajbirajdar/k-sphere-backend:latest
     container_name: k-sphere-backend
     ports:
       - "8000:8000"
@@ -59,7 +59,7 @@ services:
 
   # Frontend - Next.js (Using pre-built image)
   frontend:
-    image: YOUR_DOCKERHUB_USERNAME/k-sphere-frontend:latest
+    image: rushirajbirajdar/k-sphere-frontend:latest
     container_name: k-sphere-frontend
     ports:
       - "3000:3000"
