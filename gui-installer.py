@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 K-Sphere GUI Installer
-A simple graphical installer for K-Sphere (future enhancement)
+A simple graphical installer for K-Sphere (future enhancement).  ..........
 """
 
 import tkinter as tk
