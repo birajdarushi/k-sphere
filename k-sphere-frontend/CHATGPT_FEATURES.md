@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # ChatGPT-Style Features Implementation
 
 ## ✅ Three New Features Added!
@@ -244,3 +248,6 @@ catch (error: any) {
 ✅ Better user experience  
 
 Try it out! The frontend should hot-reload with these changes. 🚀✨
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

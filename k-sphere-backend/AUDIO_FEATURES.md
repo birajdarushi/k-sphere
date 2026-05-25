@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # Audio Features Documentation
 
 ## Overview
@@ -196,3 +200,16 @@ curl -X POST http://localhost:8000/api/knowledge-base/upload \
 ### Example 2: Query with Timestamp Citation
 ```
 User: "What did the speaker say about AI ethics?"
+
+Assistant: "The speaker emphasizes transparency in model decisions and
+responsible dataset use (source: hindi_podcast.mp3 at 07:42)."
+
+Citation:
+📎 hindi_podcast.mp3 [07:42 - 08:10]
+
+To review this segment directly, open:
+audio/hindi_podcast.mp3#t=462
+```
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

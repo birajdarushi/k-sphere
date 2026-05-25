@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # ✅ FINAL ANSWER: What to Copy to New PC
 
 ## 🎯 Direct Answer to Your Question
@@ -32,7 +36,7 @@
 2. **Right-click** `install-k-sphere.bat`
 3. **Select** "Run as administrator"
 4. **Wait** 5-10 minutes
-5. **Done!** Browser opens automatically
+5. **Installation complete.** Browser opens automatically
 
 #### Where to Run:
 - ✅ **Windows Explorer** - Just double-click the .bat file
@@ -56,7 +60,7 @@
 1. **Copy the file** to new Mac/Linux PC
 2. **Double-click** the file (or run `bash install-standalone.sh`)
 3. **Wait** 5-10 minutes
-4. **Done!** Browser opens automatically
+4. **Installation complete.** Browser opens automatically
 
 ---
 
@@ -170,14 +174,14 @@ When giving K-Sphere to someone:
 - [ ] Tell them: "Right-click and Run as administrator"
 - [ ] Mention: "Make sure Docker Desktop is installed and running"
 - [ ] Wait 5-10 minutes
-- [ ] Done!
+- [ ] Installation complete.
 
 ### For Mac/Linux Users:
 - [ ] Give them `install-standalone.sh` file
 - [ ] Tell them: "Double-click the file"
 - [ ] Mention: "Make sure Docker Desktop is installed and running"
 - [ ] Wait 5-10 minutes
-- [ ] Done!
+- [ ] Installation complete.
 
 ### Optional (for offline install):
 - [ ] Give them full ZIP file of K-Sphere
@@ -224,3 +228,6 @@ The user experience is:
 4. Use K-Sphere!
 
 **Perfect for non-technical users!** 🚀
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

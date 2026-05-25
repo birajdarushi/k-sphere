@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # One-Click Installation Summary
 
 ## ✅ What We Created
@@ -59,7 +63,7 @@ code .
 
 # Option 2: Local development
 cd k-sphere-backend && python main.py
-cd k-sphere-frontend && pnpm dev
+cd k-sphere-frontend && npm run dev
 ```
 
 ---
@@ -340,3 +344,6 @@ Your users now have:
 7. `INSTALLATION_SUMMARY.md` - This file
 
 All ready for users to install and enjoy K-Sphere! 🎊
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

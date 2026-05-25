@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # Chat Features Implementation
 
 ## Overview
@@ -353,3 +357,6 @@ cd k-sphere-backend
 - Ensure files are uploaded first
 - Check knowledge base page shows files
 - Verify backend `/api/knowledge-base` endpoint working
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

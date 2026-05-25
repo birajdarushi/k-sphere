@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # Audio Processing Setup Guide
 
 K-Sphere now supports audio file processing (MP3, WAV, M4A, FLAC) with automatic transcription using OpenAI's Whisper model.
@@ -107,3 +111,6 @@ After uploading a meeting recording:
 ```
 
 K-Sphere will search the transcribed text and provide answers with source citations!
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

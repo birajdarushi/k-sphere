@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # System-Wide RAG Indexing - Implementation Summary
 
 ## 🎯 Overview
@@ -264,6 +268,9 @@ open http://localhost:3000/system-indexer
 
 ---
 
-**Implementation Date**: October 6, 2025  
+**Implementation Date**: May 25, 2026  
 **Version**: 1.0.0  
 **Status**: ✅ Complete and Production-Ready
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

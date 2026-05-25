@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # System-Wide Indexing Guide
 
 ## Overview
@@ -430,5 +434,8 @@ Planned features:
 
 ---
 
-**Last Updated**: October 2025  
+**Last Updated**: May 25, 2026  
 **Version**: 1.0.0
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

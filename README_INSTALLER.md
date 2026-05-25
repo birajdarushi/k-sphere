@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # K-Sphere: One-Click AI Knowledge Management System
 
 <div align="center">
@@ -312,7 +316,7 @@ ollama:
 ```
 
 **Technology Stack:**
-- **Frontend**: Next.js 14, React, TailwindCSS, shadcn/ui
+- **Frontend**: Next.js 15, React, TailwindCSS, shadcn/ui
 - **Backend**: Python 3.11, FastAPI, ChromaDB
 - **AI**: Ollama, LLaMA 3.2, Nomic Embeddings
 - **Processing**: PyPDF, Whisper, Tesseract OCR
@@ -420,8 +424,8 @@ python main.py
 
 # Frontend (new terminal)
 cd k-sphere-frontend
-pnpm install
-pnpm dev
+npm install
+npm run dev
 ```
 
 ---
@@ -457,3 +461,6 @@ Built with amazing open-source projects:
 [Website](https://your-website.com) • [Twitter](https://twitter.com/yourhandle) • [Email](mailto:you@example.com)
 
 </div>
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

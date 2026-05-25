@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # K-Sphere Docker - Quick Reference
 
 ## 🚀 One Command Start
@@ -270,3 +274,6 @@ docker-compose up -d
 ---
 
 **Quick Start**: `./install.sh` → http://localhost:3000 🚀
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

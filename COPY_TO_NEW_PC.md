@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # 📦 What to Copy to a New PC - K-Sphere Installation
 
 ## 🎯 Quick Answer
@@ -13,7 +17,7 @@ Copy these **2 files** to the new PC:
 1. Copy both files to new Windows PC
 2. Right-click `install-k-sphere.bat` → "Run as administrator"
 3. Wait 5-10 minutes
-4. Done! Browser opens automatically
+4. Installation complete. Browser opens automatically
 
 ---
 
@@ -27,7 +31,7 @@ Copy this **1 file** to the new PC:
 1. Copy file to new Mac/Linux PC
 2. Double-click the file (or run `bash install-standalone.sh`)
 3. Wait 5-10 minutes
-4. Done! Browser opens automatically
+4. Installation complete. Browser opens automatically
 
 ---
 
@@ -62,7 +66,7 @@ All installer files are in:
 4. ✅ Starts all services (backend, frontend, Ollama)
 5. ✅ Downloads AI model (llama3.2:1b)
 6. ✅ Opens browser to http://localhost:3000
-7. ✅ **Done!** User can start using K-Sphere
+7. ✅ **Installation complete.** User can start using K-Sphere
 
 ### macOS/Linux (.sh file):
 Same steps as Windows, but uses bash instead of PowerShell.
@@ -248,3 +252,6 @@ Users can verify integrity before running.
 ---
 
 **This is as close to "click and install" as you can get without creating a full GUI installer app!** 🎉
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

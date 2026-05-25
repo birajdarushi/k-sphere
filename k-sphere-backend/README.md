@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # K-Sphere AI Backend
 
 Offline-first multimodal RAG (Retrieval-Augmented Generation) system powered by Ollama. This backend processes documents, images, and audio files, stores them in a vector database, and provides intelligent chat capabilities with source citations.
@@ -385,3 +389,6 @@ Your backend is ready! Make sure:
 - ✓ Frontend is running on port 3000
 
 Now you can upload files and start chatting! 🚀
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # K-Sphere Deployment & Features Guide
 
 ## Overview
@@ -818,3 +822,6 @@ Would you like me to start implementing any of these features? I'd recommend thi
 3. **Add DB Visualization** (useful for debugging)
 
 Let me know which one you'd like me to tackle first!
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._
