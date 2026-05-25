@@ -378,7 +378,7 @@ You now have:
 
 ---
 
-## 🎉 You're Installation complete.
+## 🎉 Installation Complete
 
 Users can now install K-Sphere **as easily as any other app**:
 1. Download
