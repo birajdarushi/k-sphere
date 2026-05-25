@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # System-Wide Indexing - Quick Reference Card
 
 ## 🚀 Quick Start (30 seconds)
@@ -252,6 +256,9 @@ npm start
 ---
 
 **Version**: 1.0.0  
-**Last Updated**: October 6, 2025  
+**Last Updated**: May 25, 2026  
 **Quick Start Time**: < 1 minute  
 **Full Setup Time**: < 5 minutes
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

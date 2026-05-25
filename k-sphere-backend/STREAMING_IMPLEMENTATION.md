@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # Real-Time Streaming Chat Implementation
 
 ## ✅ What Was Implemented
@@ -230,3 +234,6 @@ Frontend updates message character-by-character
 The text flows from the LLM as it thinks, giving users instant feedback and a much better experience. No more waiting for the full response - they see it being generated live! 🚀
 
 Try it out and watch the magic happen! ✨
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

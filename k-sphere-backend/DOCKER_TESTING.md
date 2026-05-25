@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # Docker Testing Guide
 
 ## Quick Test Commands
@@ -175,3 +179,6 @@ Once Docker is working:
 ---
 
 **Status**: Docker setup complete! Ready for testing. 🐳
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

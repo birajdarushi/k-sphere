@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # K-Sphere Installation Guide for Windows
 
 ## 🎯 One-Click Installation
@@ -20,7 +24,7 @@
 
 3. **Wait** for installation to complete (5-10 minutes on first run)
 
-4. **Done!** Browser opens automatically to http://localhost:3000
+4. **Installation complete.** Browser opens automatically to http://localhost:3000
 
 #### Method 2: PowerShell Install
 
@@ -32,7 +36,7 @@
 
 3. **Wait** for installation
 
-4. **Done!**
+4. **Installation complete.**
 
 #### Method 3: Manual PowerShell (for advanced users)
 
@@ -53,7 +57,7 @@
 
 5. **Wait** for installation
 
-6. **Done!**
+6. **Installation complete.**
 
 ---
 
@@ -92,7 +96,7 @@ docker-compose stop
 ```
 
 ### Accessing K-Sphere
-Open your browser to: **http://localhost:3000**
+Open your browser at **http://localhost:3000**.
 
 ### View Logs
 ```powershell
@@ -238,3 +242,6 @@ If any step fails, see **Troubleshooting** section above.
 ---
 
 **Need Help?** Open an issue on GitHub or contact support!
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

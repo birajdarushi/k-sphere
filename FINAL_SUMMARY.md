@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # 🎉 K-Sphere: Complete One-Click Installation System
 
 ## ✅ Final Summary
@@ -63,7 +67,7 @@ curl -fsSL https://your-site.com/install | bash
 2. Extract the ZIP
 3. Double-click `install.sh`
 4. Wait 15-30 minutes
-5. Done!
+5. Installation complete.
 
 ---
 
@@ -269,7 +273,7 @@ You have **TWO installer options**:
 2. Click "Download"
 3. Double-click file
 4. Wait 20 minutes
-5. Done! 🎉
+5. Installation complete. 🎉
 ```
 
 **For Developers:**
@@ -374,7 +378,7 @@ You now have:
 
 ---
 
-## 🎉 You're Done!
+## 🎉 You're Installation complete.
 
 Users can now install K-Sphere **as easily as any other app**:
 1. Download
@@ -387,3 +391,6 @@ Users can now install K-Sphere **as easily as any other app**:
 The only prerequisite is Docker Desktop, and even that can be checked/installed during the process.
 
 **Perfect for non-technical users!** ✨
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

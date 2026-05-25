@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # Folder Grouping Feature
 
 ## Overview
@@ -128,3 +132,6 @@ Potential improvements:
 - [ ] Folder-level actions (delete all, export all)
 - [ ] Search within specific folder
 - [ ] Folder statistics (total size, file types)
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

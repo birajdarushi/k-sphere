@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # K-Sphere One-Click Installation Guide
 
 ## 🚀 Quick Start (One Command!)
@@ -92,8 +96,8 @@ python main.py
 
 # Frontend (in new terminal)
 cd k-sphere-frontend
-pnpm install
-pnpm dev
+npm install
+npm run dev
 
 # Ollama (in new terminal)
 ollama serve
@@ -454,3 +458,6 @@ We welcome contributions! See `CONTRIBUTING.md` for guidelines.
 ---
 
 **Need help?** Open an issue on GitHub or join our community chat!
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

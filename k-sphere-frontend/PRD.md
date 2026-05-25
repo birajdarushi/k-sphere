@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # K-Sphere AI - Product Requirements Document
 
 ## Executive Summary
@@ -880,3 +884,6 @@ TOP_K=5
 ## Conclusion
 
 This PRD provides a complete specification for integrating the K-Sphere frontend with a local Ollama-powered backend. The system is designed to run efficiently on Mac M1 with 8GB RAM while providing powerful multimodal RAG capabilities completely offline.
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

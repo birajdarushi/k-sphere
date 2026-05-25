@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # 🎯 K-Sphere Installation - Quick Visual Guide
 
 ## For Windows Users 🪟
@@ -232,3 +236,6 @@ Your Computer
 - `INSTALLATION.md` - Complete documentation
 - `QUICK_REFERENCE.md` - Command reference
 - `COPY_TO_NEW_PC.md` - Distribution guide
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

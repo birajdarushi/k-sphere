@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # 🌐 System-Wide RAG Indexing for K-Sphere
 
 > Transform K-Sphere into a comprehensive personal knowledge management system that indexes your entire computer with your permission.
@@ -380,6 +384,9 @@ Planned features:
 
 **Version**: 1.0.0  
 **Status**: Production Ready  
-**Last Updated**: October 6, 2025
+**Last Updated**: May 25, 2026
 
 [Quick Start](#-quick-start-60-seconds) • [Documentation](#-documentation) • [Support](#-support)
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

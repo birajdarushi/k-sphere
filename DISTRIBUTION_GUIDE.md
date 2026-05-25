@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # K-Sphere Distribution Guide
 
 ## 🎯 Goal: Zero-Friction Installation
@@ -6,7 +10,7 @@ Users should be able to install K-Sphere by:
 1. **Downloading ONE file**
 2. **Double-clicking it**
 3. **Waiting for installation**
-4. **Done!**
+4. **Installation complete.**
 
 NO Git, NO terminal commands, NO technical knowledge required.
 
@@ -68,7 +72,7 @@ bash install-k-sphere.sh
 1. Download `k-sphere.zip` from your website
 2. Extract the ZIP file
 3. Double-click `install.sh`
-4. Done!
+4. Installation complete.
 
 **How to create:**
 ```bash
@@ -140,7 +144,7 @@ Create a native app with Electron/Tauri:
 1. Download `K-Sphere.dmg` (macOS) or `K-Sphere.exe` (Windows)
 2. Double-click to install
 3. Click "Install" button in the app
-4. Done!
+4. Installation complete.
 
 **Features:**
 - GUI installer with progress bars
@@ -321,7 +325,7 @@ git push origin v1.0.0
     <li>Download the installer</li>
     <li>Double-click to run</li>
     <li>Wait 15-30 minutes</li>
-    <li>Done! Browser opens automatically</li>
+    <li>Installation complete. Browser opens automatically</li>
   </ol>
 </body>
 </html>
@@ -354,7 +358,7 @@ curl -fsSL https://your-site.com/install.sh | bash
 1. **Website Download** (Best)
    - Host `install-standalone.sh` on your site
    - Users click download, double-click file
-   - Done!
+   - Installation complete.
 
 2. **GitHub Releases** (Good)
    - Package as release asset
@@ -397,3 +401,6 @@ User Journey (NO GIT NEEDED):
 3. **Future**: Consider desktop app with GUI
 
 **Users can install K-Sphere without Git!** 🚀
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

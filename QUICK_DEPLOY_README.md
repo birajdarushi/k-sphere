@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # 🚀 K-Sphere - Quick Deployment Guide
 
 Deploy K-Sphere AI knowledge base system on any laptop in under 5 minutes!
@@ -106,3 +110,6 @@ Wait 2-3 minutes on first startup for AI models to download and initialize.
 ---
 
 **⚡ Ready in under 5 minutes!** Just run the one-command deploy above.
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._

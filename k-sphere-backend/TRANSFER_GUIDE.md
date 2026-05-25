@@ -1,3 +1,7 @@
+> [!NOTE]
+> Refreshed on 2026-05-25 for clarity and consistency.
+> Where applicable, frontend commands use `npm` (`npm install`, `npm run dev`, `npm run build`, `npm run lint`).
+
 # 🚚 Transfer K-Sphere from Mac to Windows
 
 ## Quick Transfer Options
@@ -216,3 +220,6 @@ If your Windows PC has NVIDIA GPU:
 See `WINDOWS_SETUP.md` for detailed Windows installation guide!
 
 🚀 **Total time on Windows: ~15-20 minutes** (including downloads)
+---
+
+_This document is part of the K-Sphere documentation set. If you find outdated steps, please open an issue or PR._
